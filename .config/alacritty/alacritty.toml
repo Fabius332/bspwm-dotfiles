@@ -1,0 +1,74 @@
+
+
+[window]
+opacity = 0.92
+blur = true
+padding.x = 12
+padding.y = 12
+decorations = "none"
+
+[font]
+size = 11.5
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+blink_interval = 500
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+
+[mouse]
+hide_when_typing = true
+
+[terminal.shell]
+program = "/bin/zsh"
+
+[colors.primary]
+background = "#0d1117"
+foreground = "#c9d1d9"
+
+[colors.cursor]
+text = "#0d1117"
+cursor = "#58a6ff"
+
+[colors.normal]
+black = "#161b22"
+red = "#ff7b72"
+green = "#3fb950"
+yellow = "#d29922"
+blue = "#58a6ff"
+magenta = "#bc8cff"
+cyan = "#39c5cf"
+white = "#b1bac4"
+
+[colors.bright]
+black = "#484f58"
+red = "#ffa198"
+green = "#56d364"
+yellow = "#e3b341"
+blue = "#79c0ff"
+magenta = "#d2a8ff"
+cyan = "#56d4dd"
+white = "#f0f6fc"
+
+[keyboard]
+bindings = [
+  { key = "Left",  mods = "Control", chars = "\u001bb" },
+  { key = "Right", mods = "Control", chars = "\u001bf" }
+]
